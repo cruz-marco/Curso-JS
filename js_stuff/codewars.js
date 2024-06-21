@@ -220,3 +220,12 @@ varB = aux;
 
 print(varA, varB, varC);
 
+const pessoas = [
+    {id: 1, nome: "Marco"},
+    {id:2, nome: "Marcelo"}
+];
+
+for (pessoa of pessoas){
+    const { id } = pessoa;
+    print(id);
+}
